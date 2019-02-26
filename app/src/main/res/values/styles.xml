@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="WidgetRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="WidgetColumn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="WidgetButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:backgroundTint">#232323</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="WidgetHazardButton" parent="WidgetButton">
+        <item name="android:backgroundTint">#d61b1b</item>
+        <item name="android:layout_height">80dp</item>
+        <!--<item name="android:textColor">#FF0000</item>-->
+    </style>
+    <style name="WidgetIndicator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    <style name="WidgetIndicatorSlim" parent="WidgetIndicator">
+        <item name="android:layout_height">10dp</item>
+    </style>
+</resources>

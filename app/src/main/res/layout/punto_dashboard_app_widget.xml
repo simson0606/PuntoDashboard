@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WidgetRow">
+    <LinearLayout style="@style/WidgetColumn">
+        <TextView style="@style/WidgetIndicator"/>
+        <Button
+            android:id="@+id/buttonWidgetPowerSteering"
+            style="@style/WidgetButton"
+            android:text="@string/power_steering" />
+    </LinearLayout>
+    <LinearLayout style="@style/WidgetColumn">
+
+        <TextView
+            android:id="@+id/indicatorWidgetLock"
+            style="@style/WidgetIndicator" />
+        <Button
+            android:id="@+id/buttonWidgetLock"
+            style="@style/WidgetButton"
+            android:text="@string/door_lock" />
+    </LinearLayout>
+    <LinearLayout style="@style/WidgetColumn">
+
+        <TextView
+            android:id="@+id/indicatorWidgetStartStop"
+            style="@style/WidgetIndicator" />
+        <Button
+            android:id="@+id/buttonWidgetStartStop"
+            style="@style/WidgetButton"
+            android:text="@string/start_stop" />
+    </LinearLayout>
+    <LinearLayout style="@style/WidgetColumn">
+        <TextView style="@style/WidgetIndicatorSlim"/>
+        <Button
+            android:id="@+id/buttonWidgetHazard"
+            style="@style/WidgetHazardButton"
+            android:text="@string/hazard" />
+    </LinearLayout>
+    <LinearLayout style="@style/WidgetColumn">
+
+        <TextView
+            android:id="@+id/indicatorWidgetASR"
+            style="@style/WidgetIndicator" />
+        <Button
+            android:id="@+id/buttonWidgetASR"
+            style="@style/WidgetButton"
+            android:text="@string/asr" />
+    </LinearLayout>
+    <LinearLayout style="@style/WidgetColumn">
+
+        <TextView
+            android:id="@+id/indicatorWidgetECO"
+            style="@style/WidgetIndicator" />
+        <Button
+            android:id="@+id/buttonWidgetECO"
+            style="@style/WidgetButton"
+            android:text="@string/eco" />
+    </LinearLayout>
+    <LinearLayout style="@style/WidgetColumn">
+
+        <TextView
+            style="@style/WidgetIndicator" />
+        <TextView
+            android:id="@+id/indicatorWidgetAirbag"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/passenger_airbag"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>

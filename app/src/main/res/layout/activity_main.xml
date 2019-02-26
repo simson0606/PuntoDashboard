@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.simon.puntodashboard.MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonPowerSteering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonPowerSteeringClicked"
+            android:text="@string/power_steering"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonLockClicked"
+            android:text="@string/door_lock"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="195dp" />
+
+        <Button
+            android:id="@+id/buttonStartStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonStartStopClicked"
+            android:text="@string/start_stop"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="330dp" />
+
+        <Button
+            android:id="@+id/buttonHazard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonHazardClicked"
+            android:text="@string/hazard"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="475dp" />
+
+        <Button
+            android:id="@+id/buttonASR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonASRClicked"
+            android:text="@string/asr"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="627dp" />
+
+        <Button
+            android:id="@+id/buttonECO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonECOClicked"
+            android:text="@string/eco"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="819dp" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+
+        </android.support.constraint.ConstraintLayout>
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
